@@ -1,4 +1,4 @@
-//VARIABLES CONSTANTS  DATATYPES AND OPERATORS
+//VARIABLES CONSTANTS  DATATYPES 
 
 
 
@@ -120,5 +120,4 @@ console.log(allemployees[0].phone[1])
 
 
 
-//day 2 OPERSATORS
 
