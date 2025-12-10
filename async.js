@@ -57,7 +57,7 @@ async function mypromisefunc1(){
 
 
 
-/* const mypromise = new Promise((resolve,reject)=>{
+const mypromise = new Promise((resolve,reject)=>{
     //code execution time consuming here
     err = true
     if(err){
@@ -80,7 +80,7 @@ mypromise
 })
 .finally(()=>{
     console.log("finally is always printed")
-}) */
+})
 
 
 
@@ -119,9 +119,9 @@ console.log('last line') */
 
 
 
-//ASYNC
+//ASYNC function returns promise
 
-const mypromisefunc2 = async (user,pass)=>{
+/* const mypromisefunc2 = async(user,pass)=>{
         if(user ==='admin'&& pass ==="admin"){
             return('login successful')                 //async ko return le resolve trigger garxa
         }else{
@@ -140,7 +140,7 @@ mypromisefunc2('admin',"admin")
 })
 .finally(()=>{
     console.log("finally is always executed")
-})
+}) */
 
 
 console.log('last line')
