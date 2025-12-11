@@ -48,6 +48,12 @@ $
 .pub is public key yo chain share garne ho aru lai
 
 
+linking to any repo 
+-git remote set-url origin <new_repo_url>
+
+check changes in file 
+-git status
+ 
 
 1. first code locally and empty repo
     **connect your repo locally
@@ -57,3 +63,6 @@ $
     **stage(commiting)
         -git add .  =every changes add for commit
         -git commit -m "your message"  =commit the changes
+
+    **push
+        -git push origin main
