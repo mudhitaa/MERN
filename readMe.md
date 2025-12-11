@@ -3,13 +3,8 @@ GIT
 push and push
 use ssh
 
-ASUS@Mudhita MINGW64 ~/Desktop/broadway/start/a. Javascript (main)
-$ ssh-keygen
-Generating public/private ed25519 key pair.
-Enter file in which to save the key (/c/Users/ASUS/.ssh/id_ed25519):
 
-
-bash ma
+BASH MA
 
 ASUS@Mudhita MINGW64 ~/Desktop/broadway/start/a. Javascript (main)
 ASUS@Mudhita MINGW64 ~/Desktop/broadway/start/a.ASUS@Mudhita MINGW64 ~/Desktop/broadway/start/a. Javascript (main)
@@ -48,21 +43,29 @@ $
 .pub is public key yo chain share garne ho aru lai
 
 
+
+
+
+
 linking to any repo 
--git remote set-url origin <new_repo_url>
+-`git remote set-url origin <new_repo_url>`
 
 check changes in file 
--git status
+-`git status`
  
 
 1. first code locally and empty repo
     **connect your repo locally
-        -git init 
-        -git remote add origin <url>
+        -`git init `
+        -`git remote add origin <url>`
 
     **stage(commiting)
-        -git add .  =every changes add for commit
-        -git commit -m "your message"  =commit the changes
+        -`git add .`  =every changes add for commit
+        -`git commit -m "your message"`  =commit the changes
 
     **push
-        -git push origin main
+        -`git push origin main` =gitpush origin <branch>[:remote branch name]
+
+
+
+2. pull
