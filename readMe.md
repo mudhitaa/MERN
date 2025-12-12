@@ -53,6 +53,9 @@ linking to any repo
 check changes in file 
 -`git status`
  
+check origin for any repo
+-`git remote -v`
+
 
 1. first code locally and empty repo
     **connect your repo locally
@@ -68,4 +71,7 @@ check changes in file
 
 
 
-2. pull
+2. repo full =>setup to local
+    -git clone <url>
+
+    --git config -- global pull.rebase false
