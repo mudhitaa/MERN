@@ -72,6 +72,12 @@ check origin for any repo
 
 
 2. repo full =>setup to local
-    -git clone <url>
+    -`git clone <url>`
+
+    **if conflict when commiting (same file changed by two people) then 
+        -first choose one of the options 
+        -`git add .`
+        -`git commit -m "your message"`  =commit the changes
+
 
     --git config -- global pull.rebase false
