@@ -75,3 +75,7 @@ check origin for any repo
     -git clone <url>
 
     --git config -- global pull.rebase false
+
+3. branch checkout 
+    -`git checkout -b <branchname >` //new branch
+    -`git branch` //list branches
