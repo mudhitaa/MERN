@@ -85,3 +85,23 @@ check origin for any repo
 3. branch checkout 
     -`git checkout -b <branchname >` //new branch
     -`git branch` //list branches
+
+
+
+
+
+node project 
+*node_modules/
+*package.json   ~<paackagemanager>.lock.json
+    -library manage(dependency manager)
+        -server -http/https ->1.10.2------->2.0.0 afai update huna vayena lock gaarbnu paarxa
+
+
+
+
+
+package managers:
+npm yarn pnpn deno bun
+
+
+we use pnpm
